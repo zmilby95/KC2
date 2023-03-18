@@ -8,16 +8,13 @@ namespace KnowledgeCheck2
 {
     public class Icecream
     {
-        public string name;
-        public Flavor flavor;
-        
         public string price;
         public string review;
     }
 
-    public class Flavor
+    public class FlavoredIcecream : Icecream
     {
-        public string name;
-        public Flavor(string name) { this.name = name; }
+        public string flavor;
+        
     }
 }
